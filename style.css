@@ -1,14 +1,34 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #137ad4;
-  color: #333;
-  text-align: center;
-  padding: 50px;
+/* style.css */
+
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-  color: #a81f64;
+/* Body and background */
+body {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #333;
 }
-div {
-    color:antiquewhite
+
+/* Hero container */
+.hero {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 350px;
+  padding: 30px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Card content*
